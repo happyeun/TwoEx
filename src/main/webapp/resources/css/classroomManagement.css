@@ -1,0 +1,608 @@
+#claTitle {
+	border: var(- -color-white);
+	border-radius: var(- -border-radius1);
+	padding: 8px 14px;
+	padding-top: 16px;
+	color: white;
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	height: 80%;
+	margin-top: 10px;
+	width: 77%;
+
+	/*
+    
+    background-color:var(--color-veryPeri);
+	*/
+}
+/*배너존 점선 지우기*/
+
+/*메뉴존*/
+.common__menu__Zone {
+	margin-top: 55px;
+	width: 16%;
+	border: none
+}
+/* 배너존 */
+.classroom__banner__zone {
+	height: 30%;
+	border: none;
+	margin-bottom: 1px;
+}
+
+.common__content__zone {
+	width: 78%;
+	height: 150%;
+	border: none;
+}
+
+#claTitle1 {
+	margin-top: 60px;
+	width: 67%;
+	height: 60%;
+	float: left;
+}
+
+#claTitle2 {
+	margin-top: 60px;
+	width: 33%;
+	float: left;
+	text-align: right;
+	font-size: 14px;
+}
+
+.claInfoBtn2 {
+	color: white;
+	width: 100%;
+	text-align: left;
+}
+
+.cla_name {
+	font-weight: bold;
+	font-size: 40px;
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+
+.cla_info {
+	width: 300px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.cla_date {
+	margin-top: 50px;
+	font-weight: bold;
+	width: 49.5%;
+	float: left;
+	font-size: 14px;
+	width: 100%;
+}
+
+.cla_totday {
+	width: 50%;
+	font-weight: bold;
+	float: left;
+	font-size: 14px;
+}
+
+.cla_curday {
+	width: 75%;
+	font-weight: bold;
+	float: left;
+	font-size: 14px;
+	text-align: right;
+}
+
+.cla_curpercentage {
+	width: 25%;
+	font-weight: bold;
+	float: right;
+}
+
+.claInfoBtn {
+	margin-top: 119px;
+	float: right;
+	position: relative;
+	border: none;
+	min-width: 55px;
+	min-height: 30px;
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	border-radius: 1000px;
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.claInfoBtn:hover {
+	transform: scale(1.2);
+}
+
+.claInfoBtn:hover:after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: ring 1.5s infinite;
+}
+
+.claInfoBtn2 {
+	margin-top: 5px;
+	float: left;
+	position: relative;
+	border: none;
+	text-align: center;
+	width: 17%;
+	height: 36%;
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	border-radius: 1000px;
+	color: white;
+	cursor: pointer;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.claInfoBtn2:hover {
+	transform: scale(1.2);
+}
+
+.claInfoBtn2:hover:after {
+	content: "";
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: ring 1.5s infinite;
+}
+
+/*콘텐츠 타이틀*/
+#listTitle {
+	width: 100%;
+	height: 10%;
+	float: left;
+	font-size: 30xp;
+	text-align: center;
+}
+
+/*커리컬럼 콘텐츠*/
+div[id^=curList] {
+	color: #fff;
+	height: 100%;
+	width: 30%;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+div[id^=curName] {
+	font-size: 30px;
+	height: 20%;
+}
+
+div[id^=curInfo] {
+	width: 100%;
+	height: 40%;
+}
+
+div[id^=curDate] {
+	width: 100%;
+	height: 20%;
+}
+
+div[id^=curTime] {
+	width: 100%;
+	height: 10%;
+}
+
+/*공지 콘텐츠*/
+div[class^=ntcList] {
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: var(- -color-veryPeri);
+	padding: 15px 0;
+}
+
+div[class^=ntcListNumber] {
+	width: 10%;
+}
+
+.common__menu__item.parentItem2 {
+	color: rgb(255, 111, 97);
+	font-size: var(- -font-medium);
+	cursor: pointer;
+}
+
+div[id^=claNtcName] {
+	width: 50%;
+	float: left;
+	font-weight: bold;
+	text-align: center;
+}
+
+div[id^=claNtcInfo] {
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	text-align: left;
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+div[id^=claNtcDate] {
+	float: left;
+	width: 30%;
+	font-weight: bold;
+	text-align: center;
+}
+
+div[class^=ntcImgDiv] {
+	float: left;
+	width: 100%;
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	border-top-left-radius: var(- -border-radius1);
+	border-top-right-radius: var(- -border-radius1);
+}
+
+.ntcImg {
+	float: left;
+}
+
+/*연습용*/
+
+/*가장 위 데이터*/
+div[id^=claNtcList] {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 25%;
+	color: #fff;
+	font-size: 20px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+div[id^=claNtcNumber] {
+	width: 10%;
+	float: left;
+	text-align: center;
+}
+
+#common__wrapper {
+	height: 60%;
+	width: 77%;
+	margin-top: 1px;
+	padding: 1px;
+}
+
+html {
+	height: 100%;
+}
+
+main {
+	height: 100%;
+}
+/*common__wrapper*/
+
+/* 과제 목록 CSS*/
+#assListDiv {
+	height: 50%;
+	color: #fff;
+	margin-bottom: 10px;
+	height: 33%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+#exfAssListDiv {
+	height: 50%;
+	color: #fff;
+	margin-bottom: 10px;
+	height: 33%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+#incAssbigList {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 33%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+div[id^=comAssName] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+/* 과제 상세 CSS*/
+.littleTitle {
+	font-size: 40px;
+	width: 100%;
+	height: 9.4%;
+	color: var(- -color-veryPeri);
+}
+
+div[id^=ass] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+textarea[name=subInfo] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+button[class=addUploadFileBtn] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+button[id=setUpdBtn] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+input[name=uploadFile] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+button[class=deleteFileBtn] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+button[class=submitAssignment] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 50%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+button[class=returnMoveAssignment] {
+	color: #fff;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	height: 15%;
+	width: 49%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+button[class=unsubmitAssignmentBtn] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 50%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+input[name^=cur] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 50%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #92A8D1 100%);
+	font-size: 20px;
+}
+
+button[id=insBtn] {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 50%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+div[id^=incAssName] {
+	height: 15%;
+	width: 100%;
+	margin-top: 10px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+div[id^=exfAssName] {
+	height: 15%;
+	width: 100%;
+	margin-top: 10px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+.fc-event-title-container {
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+	background-image: linear-gradient(to top, #FBC2EB 0%, #92A8D1 100%);
+}
+
+.fc .fc-button-primary:not(:disabled):active, .fc .fc-button-primary:not(:disabled).fc-button-active
+	{
+	background-image: linear-gradient(to top, #FBC2EB 0%, #92A8D1 100%);
+}
+
+.fc .fc-button-primary {
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+}
+
+/* 과제 상세 CSS*/
+
+/*캘린더*/
+#calendar {
+	color: #000;
+}
+
+a {
+	color: #000;
+}
+
+.fc-scrollgrid.fc-scrollgrid-liquid {
+	color: #000;
+}
+
+.fc-col-header-cell-cushion {
+	color: #000;
+}
+
+/*매니지먼트 커리큘럼*/
+#contents1 {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 150%;
+	width: 40%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+#contents2 {
+	color: #fff;
+	margin-bottom: 10px;
+	height: 80%;
+	width: 35%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+/*과제 관리 css*/
+.createZone {
+	color: #fff;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	height: 80%;
+	float: left;
+	width: 35%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+}
+
+.productList__zone {
+	color: #fff;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	height: 75%;
+	width: 100%;
+	border-radius: var(- -border-radius1);
+	background-image: linear-gradient(to top, #a18cd1 0%, #6667AC 100%);
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+div[id^=ass] {
+	height: 15%;
+	width: 95%;
+	margin-top: 10px;
+	border: solid var(- -border-thin) var(- -color-headerGrey);
+	border-radius: var(- -border-radius1);
+}
+
+div[id^=assignment] {
+	height: 35%;
+}
+
+.product__item {
+	margin: 15px;
+	height: 130px;
+	width: 1000px;
+	border: solid 1.5px #cacaca;
+	border-radius: 10px;
+	box-shadow: 1.5px 1.5px 10px 1px rgb(205, 205, 205);
+	background-color: rgb(250, 250, 250);
+	/*padding : 11px;*/
+	padding-top: 0px;
+	/*ackground-color: #b3dbf5;*/
+	color: var(- -color-black);
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	float: none;
+}
+
+div[id^=stuBuy], .img {
+	margin-left: 1rem;
+	display: inline-block;
+	float: left;
+	margin-top: 1rem;
+}
+div[id^=stuBuy] {
+	margin-top: 3rem;
+}

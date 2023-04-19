@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.search__content__zone{
+    margin : auto;
+    text-align: center;
+}
+.search__content__zone h1{
+    color: var(--color-veryPeri);
+
+}
+
+.search_h2{
+    margin: auto;
+    margin-top: 200px; 
+    color: rgb(0, 124, 0);
+
+}
+
+.productList__zone{
+    text-align: center;
+
+}
+.productList__container{
+    width: 1300px;
+    margin : auto;
+}
+
+.paging__zone{
+    margin: 10px;
+    padding: 15px;
+}
