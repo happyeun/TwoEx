@@ -3,7 +3,7 @@
 ### 프리랜서 아웃소싱 마켓
 <center>
   <img
-    src="https://user-images.githubusercontent.com/118444536/232990197-c4c7eec6-1143-45de-85e3-39a6b12ae6e3.png"
+    src="https://user-images.githubusercontent.com/118444536/232991557-bac92934-835b-4c5f-be2d-5c2cf0bff6fb.png"
     width="800"
     height="450"
   />
