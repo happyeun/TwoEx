@@ -68,4 +68,4 @@
 
 ### 노션 링크
 
-[https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177](https://www.notion.so/__-be355eaf07d941a9b7369dc4bb511177)
+[https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177](https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177)
