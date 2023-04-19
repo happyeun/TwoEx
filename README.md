@@ -1,8 +1,13 @@
 # TwoEx _Experts Exchange
 
 ### 프리랜서 아웃소싱 마켓
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9a8138-4432-47b5-855a-048e7c615bf7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff9a8138-4432-47b5-855a-048e7c615bf7/Untitled.png)
+<center>
+  <img
+    src="https://user-images.githubusercontent.com/118444536/232990197-c4c7eec6-1143-45de-85e3-39a6b12ae6e3.png"
+    width="800"
+    height="450"
+  />
+</center>
 
 ---
 
