@@ -23,6 +23,14 @@
 
 </br>
 
+## 📂 프로젝트 PPT
+
+### 노션 링크
+
+[https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177](https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177)
+
+</br>
+
 ## 📅 기간 및 인원
 
 ### 기간
@@ -63,9 +71,3 @@
 - Discord
 
 </br>
-
-## 📂 프로젝트 PPT
-
-### 노션 링크
-
-[https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177](https://happyeun.notion.site/__-be355eaf07d941a9b7369dc4bb511177)
